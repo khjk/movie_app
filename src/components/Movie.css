@@ -10,6 +10,7 @@
 }
 
 .movies .movie{
+    width:auto;
     background-color: white;
     margin-bottom: 70px;
     display : flex;
@@ -21,6 +22,10 @@
     color : #b2b3bc;
     box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
 }
+.movies a{
+  text-decoration: none;
+}
+
 .movies .movie a {
     display: grid;
     grid-template-columns: minmax(150px, 1fr) 2fr;
